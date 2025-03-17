@@ -1,0 +1,15 @@
+OOps ek programming ka treeka hai jisme hum "Objects" aur "classes" ka use karte hai. Iska main goal yeh hai ki hum apne code ko zayda organize, resuable aur manage kar sakein. 
+
+Class: Class ek blueprint hota hai jo Object banane ke liye use hota hai. Class ek aisa blueprint hota hai jismein hum kuchh properties (Variables) or Method(function) define karte hain.
+
+Object : Object ek instance hota hai Class ka. Matlab, jab  hum ek Class ko use karte hai to ek Objects create hota hia. Or jis class ka Object create karte hai to hum class ke properties or Method ko use kar sakte hai.
+
+
+OOps ke char main principles  hote hain:
+Encapsulation: Iska matlab hai data ko ek object ke andar hide karna aur us data ko access karne ke liye methods provide karna. Isse data ki security badhti hai aur unwanted access se bachav hota hai.
+
+Abstraction: Yeh principle unnecessary details ko hide karne ka kaam karta hai aur sirf relevant information ko expose karta hai. Matlab, users ko complex logic se confuse kiye bina unhe sirf zaroori cheezein dikhayi jaati hain.
+
+Inheritance: Isse ek class apni properties aur methods ko doosri class se inherit kar sakti hai. Yeh feature code reuse ko promote karta hai aur new functionalities ko extend karne mein madad karta hai.
+
+Polymorphism: Iska matlab hai ke ek hi function ya method ka multiple forms ho sakte hain. Yeh different objects ke liye alag-alag behavior provide karne ka tareeqa hai.

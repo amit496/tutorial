@@ -1,0 +1,17 @@
+Q. What is dart?
+A. Dart ek programming language hai, jo Google ne develop ki hai. Ye mainly mobile apps (jaise ki Flutter framework ke liye) aur web applications banane ke liye use hoti hai.
+
+Iski khas baat ye hai ki Dart fast hai aur easy to learn hai. Iska syntax (code likhne ka tareeka) C++ aur JavaScript jaise languages se milta-julta hai, jo programming sikhnay walon ke liye asaan bana deta hai.
+
+Dart ka main use case hai "Flutter," jo ek toolkit hai mobile apps banane ke liye. Dart se apps dono Android aur iOS platforms ke liye easily develop kiye ja sakte hain, aur ye dono platforms pe fast run karte hain.
+
+Simple shabdon mein, Dart ek aisi language hai jo aapko ek hi code likh kar apps banane ki suvidha deti hai jo har jagah kaam karein.
+
+
+
+
+What is void?
+What is main?
+What is void main?
+
+

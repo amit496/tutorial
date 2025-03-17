@@ -1,0 +1,95 @@
+Node.js ek open-source, cross-plateform javaScript runtime environment hai. Iska use javaScript ko server-side pe chalana hota hia, jabki pehle javaScript sirf browser (client-side) pe hi chalta tha.
+
+Node.js ka core "V8 javaScript engine" par based hota hai, jo "Google Chrome" me bhi use hota hai. Iska main feature ye hai ki ye "asynchronous", event-driven architecture ko support karta hai, jo applications ko fast aur scalable bana deta hai.
+
+
+Key features of Node.js:
+
+1. Non-blocking I/O: Node.js me non-blocking I/O operations ka support hota hai, jo ki performance ko improve karta hai.
+2. Single-threaded Event Loop: Node.js ek single-threaded event loop ka use karta hai, jo multiple requests ko efficiently handle kar sakta hai.
+3. Fast Execution: V8 engine ka use hone ki wajah se JavaScript ka code bahut tez execute hota hai.
+4. NPM (Node Package Manager): Node.js ke saath ek built-in package manager aata hai, jisme lakhs of reusable libraries available hoti hain jo development ko aasan banati hain.
+
+
+
+Use cases:
+1. Web Servers: Node.js ka use websites aur web applications ke liye servers banane me hota hai.
+2. Real-time applications: Chat apps, gaming servers, aur collaborative apps me bhi Node.js ka use hota hai.
+3. API services: RESTful APIs ya GraphQL APIs banane ke liye bhi Node.js kaafi popular hai.
+Iska use karne se developers ko ek hi language (JavaScript) front-end aur back-end dono me kaam karne ka mauka milta hai, jo development ko simplify karta hai.
+
+
+
+
+
+runtime environment : Runtime environment ek system software hai jo kisi program ko Execution ke liye require resource aur environment provide karta hai. jab aap koi program run karte hai,  to program ko  run hone ke liye jo bhi settings, libraries, memory management, aur hardware access ki zarurat hoti hai, woh sab runtime environment ke through manage hota hai.
+
+
+Kuch key points jo runtime environment se related hote hain:
+
+1. Memory management : program ko chalate waqt memory allocate aur de-allocate karna.
+2. Libraries/Frameworks: Program ko chalane ke liye required libraries, functions, ya frameworks.
+3. Libraries/Frameworks: Input or output devices ko manage karna, jaise keyboard, mouse, ya files.
+4. Exception Handling: Program ke errors aur exceptions ko handle karna.
+
+
+
+
+
+Single-threaded Event Loop ek programming concept hai jo mainly "asynchronous" programming mein use hota hai, aur ye event-driven applications ko handle karne mein kaafi helpful hota hai. Iska use aksar JavaScript(Node.js) aur Kuch aur programming environments mein hota hai. 
+
+
+Single-threaded ka matlab hai ek hi thread ka use karke program chal raha hai. Ek thread ek time par sirf ek kaam kar sakta hai. Matlab, ek hi task ya operation chal raha hota hai. 
+
+Event Loop ka kaam hai ki jo bhi events ya tasks aapke program ko execute karne hote hain, unhe sequentially handle kare. Jab ek task complete ho jaata hai, toh event loop agla task handle karta hai. 
+
+Example :
+Agar ek program ko kuch asynchronous operations (jaise file reading, database queries, or API calls) perform karna ho, toh event loop sabhi tasks ko queue mein daal leta hai. Event loop tab tak next task ko nahi pick karta jab tak pehle wala task complete nahi ho jata.
+
+
+Key Features:
+Asynchronous Execution: Event loop ke through tasks asynchronous tareeke se execute hote hain, matlab program ko block nahi karte. Matlab jab ek task chal raha hota hai, dusra task wait karta hai jab tak pehla task complete na ho.
+
+Non-blocking I/O: Event loop I/O operations ko non-blocking tareeke se handle karta hai. Agar koi I/O operation (like reading a file) chal raha ho, toh CPU us operation ke complete hone ka wait nahi karta; wo doosra task execute karta rehta hai.
+
+Single Thread: Yeh ek hi thread pe chal raha hota hai, isliye concurrency ko handle karte waqt thread management ka issue nahi hota
+
+
+Example in Node.js:
+Node.js mein, jab aap koi asynchronous function call karte hain (for example, a file read operation), wo function directly event loop ko control de deta hai aur process ko block nahi karta. Jaise hi file read ho jati hai, event loop us function ka callback execute karta hai.
+
+
+Code :
+console.log("Start");
+
+setTimeout(function() {
+  console.log("This is async task");
+}, 1000);
+
+console.log("End");
+
+
+Output :
+Start
+End
+This is async task
+
+
+Explanation: Jab setTimeout call hota hai, toh wo event loop ko batata hai ki ek second baad ye task execute karna hai, lekin program immediately console.log("End") ko print kar deta hai, bina wait kiye. Jab 1 second baad timeout complete hota hai, toh event loop callback ko execute karta hai aur "This is async task" print hota hai.
+
+
+Benefits of Single-threaded Event Loop:
+    Efficiency: Itna heavy thread management nahi hota, isliye resources ka better use hota hai.
+    Non-blocking Operations: I/O operations ko efficiently handle kiya ja sakta hai bina program ko block kiye.
+
+Limitations:
+    Single Thread: Agar ek heavy task (CPU-intensive task) run ho raha ho, toh wo event loop ko block kar sakta hai aur baaki tasks delay ho sakte hain.
+
+
+
+History
+Node.js ko 2009 mein Ryan Dahl ne develop kiya tha. Us samay JavaScript sirf browser ke andar hi chalti thi (frontend ke liye). Ryan Dahl ne Node.js isliye develop kiya tha taaki ek hi thread ke andar multiple requests efficiently handle ho sakein, bina naye threads create kiye. Node.js ka event-driven aur non-blocking I/O model isko fast aur scalable banata hai. 
+
+Baad mein "Microsoft aur Joyent" ne node.js ko Windows ke liye compatible banaya. 2014 me Node.js Foundation ka gathan hua, jo ab OpenJS Foundation ke under aata hai. Aaj ke time me, Netflix, PayPal, LinkedIn, Uber jaise bade companies Node.js ka use karti hain.
+
+

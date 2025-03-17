@@ -1,0 +1,36 @@
+DataType :- datatype ek prakar ka data ka prakar hota hai jo darshaata hai ki variable ki value ke type ko darshata hai ki value number hai, shabd hai or anya prakar data type hai. 
+
+JavaScript main do prakar ke datatype hote hai 
+primative data type :- Primitive data types wo basic data types hote hain jo programming languages ke andar built-in hote hain. Ye data types simple aur fundamental values ko represent karte hain, jisme zyada memory nahi lagti. Primitive data types kaafi common aur har programming language mein almost same hote hain.
+
+Primitive Data Types
+1. String :  Es data type main alphbatic value store hoti hai jasie. Yeh ek sequence hota hai characters ka, jo single ya double quotes mein likha jata hai.
+Example :- "Hello", "H"
+
+
+2. Number : Es data type main numeric value store hoti hai wo value simply positive, negative or decimal value ho sakti hai. Ismain integers (poore numbers) aur floating-point numbers (decimal numbers) value hoti hai saath ye value positive or  negative bhi ho sakti hai.
+
+
+3. BigInt : Es data type main bahut bade numbers ko store kiya jaata hai. Ye datatype ECMAScript 2020 (ES11) main introduced kiya gya tha. 
+Example :- 1234567890123456789012345678901234
+
+4 Boolean :- Es data typee main sirf do value store hoti hai "true" and "false". Yeh type zyadatar logical conditions aur decision-making ke liye use hota hai.
+Example :- TRUE and FALSE
+
+
+
+4 Undefined :- Es data type main agar kisi vartiable ki value store nahin hoti hai to uski default value "Undefined".
+
+
+5. Null : Yeh type intentionally kisi variable ko "nothing" ya "empty" set karne ke liye use hota hai. Yeh `undefined` se alag hai.
+Example: `null`
+
+
+Symbol : ES6 (ECMAScript 2015) mein introduce kiya gaya ek unique aur immutable value ke liye data type.
+let uniqueID = Symbol('id');
+let anotherID = Symbol('id');
+console.log(uniqueID === anotherID);
+
+
+
+

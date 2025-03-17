@@ -1,0 +1,43 @@
+Flutter
+Flutter ek open-source UI (User Interface) framework hai, jo Google ne develop kiya hai. Iska istemal cross-platform applications banane ke liye hota hai, jisme developers ek hi codebase ka use karke Android, iOS, Web, aur Desktop platforms ke liye apps bana sakte hain.
+
+
+Flutter ki khas baatein:
+Single Codebase: Ek hi codebase ka use karke multiple platforms ke liye apps banaye ja sakte hain, jo time aur resources ko bachat karta hai.
+
+Programming Language: Flutter Dart programming language ka use karta hai, jo Google ne develop ki hai.
+
+Widget-based Framework: Flutter ka pura architecture widgets par based hai. Yeh reusable widgets ka use karke apps ka UI design karne ki flexibility deta hai.
+
+Hot Reload: Flutter ka ek unique feature hai Hot Reload, jo developer ko code me changes karte hi turant result dekhne ki facility deta hai. Isse development process fast hoti hai.
+
+Rich UI & Animation Support: Flutter ready-made widgets aur animation libraries provide karta hai, jisse visually appealing aur responsive apps banayi ja sakti hain.
+
+High Performance: Flutter direct machine code me compile hota hai (Ahead-of-Time Compilation), jo iski performance ko fast banata hai.
+
+
+Flutter ka Use Case:
+Mobile applications (Android aur iOS)
+Web applications
+Desktop applications (Windows, macOS, Linux)
+Progressive Web Apps (PWA)
+
+
+Flutter se Apps Develop karne ke Liye Zaroori Tools:
+Flutter SDK: Development ke liye required framework aur libraries.
+Code Editor: Jaise VS Code ya Android Studio.
+Device Emulator: Testing ke liye.
+
+
+
+Agar aap ek developer hain ya app development me interested hain, to Flutter ek powerful aur beginner-friendly framework hai jo aapke liye kaafi helpful ho sakta hai. 😊
+
+
+
+
+
+Q1: What is Flutter?
+Q2: Why develop the Flutter?
+Q3: What is the Hot Reload?
+Q3: What is the "AOT"?
+

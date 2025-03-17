@@ -1,0 +1,224 @@
+variable :- variable ek aisi memory location hoti hai jismein hum kisi value ko store karte hain. Isko hum ek naam dete hain taaki jab humein us value ki zaroorat ho, to hum us naam ka use kar sakein.
+
+1. Memory Location
+Computer ki memory mein har cheez ko store karne ke liye ek jagah hoti hai. Har jagah ka apna ek address hota hai. Jab hum kisi cheez ko memory mein store karte hain, to uska ek specific address hota hai jahan woh value rakhi jaati hai.
+
+2. Variable ka Concept
+Variable ek name hai jo hum ek specific memory location ko dene ke liye use karte hain. Jab hum variable declare karte hain, to hum computer ko ye batate hain ki "iss naam se ek jagah rakhna hai" aur is jagah par hum ek value store kar sakte hain.
+
+3. Value Assignment
+Variable ko hum value assign karte hain. Yeh value kisi bhi type ki ho sakti hai, jaise numbers, text (strings), ya kisi aur data type ki value.
+
+
+
+
+Types of variables in Dart:
+var: Iska use jab aapko type define nahi karni hoti, Dart automatically type ko infer kar leta hai.
+
+final: Agar aap ek variable ko final declare karte hain, toh wo value ek baar assign hone ke baad change nahi ki ja sakti.
+
+const: const ek aur special variable hai, jo compile-time par constant value ko define karta hai. final aur const mein farq hai ki const ki value compile-time par constant hoti hai, jabki final ki value run-time par set ho sakti hai.
+
+
+Example
+Agar aapko apne program mein kisi number ko store karna ho, to aap ek variable create karte hain.
+age = 25
+
+Yahan par:
+    age ek variable ka naam hai.
+    25 us value ka naam hai jo hum store kar rahe hain.
+Jab hum is line ko likhte hain, to computer ko bataya jaata hai ki "memory mein ek jagah reserve kar lo jahan 25 value ko rakha jaaye, aur is jagah ko age naam se bulaya jaaye".
+
+Key Points:
+    Variable ek name hai jo kisi memory location ko represent karta hai.
+    Value woh cheez hoti hai jo us memory location mein store hoti hai.
+    Hum variable ko naam dene ke baad usmein value store karte hain aur jab bhi humein us value ki zaroorat hoti hai, to hum us variable ka naam use karte hain.
+
+Dart language mein variable define karne ke liye bhi kuch specific rules aur conventions hote hain, jo aapko follow karne chahiye. Dart ek modern programming language hai, aur iska syntax kaafi clean aur readable hai. Chaliye Dart mein variable define karne ke rules ko samajhte hain.
+
+Dart Mein Variable Define Karne Ke Rules:
+
+1. Variable Name ko Alphabet ya Underscore se Start Karna Chahiye
+Jaise baaki languages mein, Dart mein bhi variable ka naam alphabet (A-Z, a-z) ya underscore (_) se shuru hona chahiye. Variable name ko number se start nahi kar sakte.
+
+Correct:
+age = 25;
+_name = "Ali";
+
+
+Incorrect:
+2age = 25; // Ye galat hai!
+
+
+
+
+
+
+
+2. Variable Name Mein Sirf Letters, Digits, aur Underscore Allowed Hote Hain
+Variable name mein spaces, special characters (jaise @, $, %, etc.) nahi honi chahiye. Sirf letters (a-z, A-Z), digits (0-9), aur underscore (_) allowed hain.
+
+Correct:
+userAge = 25;
+total_marks = 100;
+
+
+Incorrect:
+total-age = 25; // Ye galat hai!
+first name = "Ali"; // Ye galat hai!
+
+
+
+
+
+
+
+
+
+
+
+
+3. Variable Name Case-Sensitive Hota Hai
+Dart mein variable names case-sensitive hote hain, matlab age aur Age do alag variables hain.
+Correct:
+int age = 25;
+int Age = 30;
+
+
+
+Incorrect:
+int age = 25;
+int Age = 30; // Yahan dono alag hain, isliye sahi hai.
+
+
+
+
+
+
+
+
+
+
+
+4. Reserved Keywords ka Use Nahi Kar Sakte
+Dart mein kuch reserved keywords hote hain jo programming language ke specific functions ko represent karte hain. Aap in keywords ko variable names ke liye use nahi kar sakte.
+Dart mein kuch reserved keywords hain jaise: class, for, if, else, var, int, void, return, etc.
+Correct:
+var userName = "Ali";
+
+
+
+Incorrect:
+int = 25;  // Ye galat hai! "int" ek reserved keyword hai.
+
+
+
+
+
+5. Variable Name Length
+Dart mein variable name ki koi specific length limit nahi hoti, lekin variable ka naam short aur meaningful hona chahiye taaki code readable ho.
+Correct:
+userName = "Ali";
+totalMarks = 250;
+
+
+
+Incorrect:
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa = 50;  // Bahut lamba naam hai!
+
+
+
+
+
+
+
+
+6. Variable Name Mein Digits Ka Use
+Variable name mein aap digits ka use kar sakte hain, lekin wo starting position par nahi honi chahiye. Matlab, number ko variable name ke beech ya end mein rakha jaa sakta hai, lekin wo pehle nahi hona chahiye.
+Correct:
+item1 = "apple";
+totalAmount2 = 100;
+
+
+
+Incorrect:
+1item = "apple";  // Ye galat hai!
+
+
+
+
+
+
+
+
+
+
+
+7. Declaring Variables in Dart
+Dart mein aapko variable declare karte waqt type bhi specify karna padta hai, ya type inference ka use karke Dart khud type detect kar sakta hai.
+Explicit Type Declaration:
+int age = 25;  // 'int' type specify kiya gaya hai
+String name = "Ali";  // 'String' type specify kiya gaya hai
+
+
+
+
+
+
+Implicit Type Declaration (using var):
+var age = 25;  // Dart automatically 'int' type assign karega
+var name = "Ali";  // Dart automatically 'String' type assign karega
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using dynamic: Agar aap chahein ki variable ka type runtime pe decide ho, to aap dynamic type ka use kar sakte hain.
+dynamic value = "Hello";  // value ki type koi bhi ho sakti hai
+value = 100;  // value ka type ab int ho gaya
+
+
+
+
+
+
+
+
+8. Naming Conventions (Best Practices)
+Dart mein bhi kuch common conventions follow ki jaati hain, jaise:
+
+Camel Case: Dart mein usually camelCase convention use hota hai, jisme pehle word ka pehla letter small hota hai, aur baaki sab words ka pehla letter capital hota hai. Jaise userName, totalMarks, firstName, etc.
+
+Class Names: Agar aap class define kar rahe hain, to uska naam PascalCase (sab words capital) mein hona chahiye. Jaise Person, EmployeeDetails.
+
+
+
+
+
+
+
+
+
+
+Summary of Rules in Dart:
+1 Variable name ko alphabet ya underscore se shuru karna chahiye.
+2 Variable name mein sirf letters, digits, aur underscores allowed hote hain.
+3 Variable name case-sensitive hota hai (i.e., age aur Age alag hote hain).
+4 Reserved keywords ko variable name ke roop mein use nahi kar sakte.
+5 Variable ka naam meaningful aur short hona chahiye.
+6 Digits variable name mein beech ya end mein ho sakte hain, lekin wo start nahi kar sakte.
+7 Dart mein variables ko explicitly type define kiya jaata hai, ya var ya dynamic ka use hota hai.
+Dart mein in rules ko follow karke aap easily readable aur maintainable code likh sakte hain.

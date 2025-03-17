@@ -1,0 +1,75 @@
+1. Number:
+Dart mein Number ek general type hai jo integer aur floating point numbers ko darshata hai. Iske andar int, double, num, BigInt types aate hain.
+
+int: Integer values ko store karta hai.
+double: Floating point (decimal) values ko store karta hai.
+num: Ye int aur double ka supertype hai, yaani num dono ko represent kar sakta hai.
+
+
+2. String: Dart mein string ek sequence hoti hai characters ka. Isme characters ko quotes (single ya double) mein likha jata hai.
+
+
+
+3. Boolean:
+bool: Dart mein bool type sirf do possible values le sakta hai: true ya false.
+
+
+
+4. List:
+List: Ye data type ek ordered collection hota hai elements ka. List ke elements kisi bhi data type ke ho sakte hain. Ye Dart ka ek generic type hai, ismein values ko index ke through access kiya jata hai.
+Example: List<int>, List<String>, List<dynamic>.
+
+
+
+5. Map:
+Map: Dart mein Map ek collection hota hai key-value pairs ka. Map mein keys unique hote hain aur unke corresponding values hote hain. Ye bhi ek generic type hai.
+Example: Map<String, int>, Map<int, String>, Map<String, List>.
+
+
+
+6. Set:
+Set: Dart mein Set ek unordered collection hota hai jisme unique elements hote hain. Ye duplicates ko allow nahi karta.
+Example: Set<int>, Set<String>.
+
+
+
+
+
+7. Dynamic:
+dynamic: Ye ek special type hai jisme variable kisi bhi type ka ho sakta hai. Agar aapko kisi variable ka type runtime ke dauraan decide karna ho, toh aap dynamic type use kar sakte hain.
+Example: dynamic value = 10;
+
+
+
+
+
+
+
+8. Void:
+void: Ye return type hota hai, jo indicate karta hai ki function ya method koi value return nahi karega.
+Example: void functionName() {}
+
+
+
+
+
+
+
+9. Null:
+Null: Dart mein null ek special type hota hai, jo kisi bhi object ko represent karne ke liye use hota hai jo ki 'null' value hold kar raha ho.
+Example: var value = null;
+
+
+
+
+
+10. Future:
+Future: Ye asynchronous programming mein use hota hai jab aapko kisi task ka result future mein milega. Future ka use async operations ke liye hota hai, jaise kisi API se data fetch karna.
+
+
+
+
+
+
+11. Stream:
+Stream: Ye bhi asynchronous operations ke liye hota hai, lekin jab aapko multiple values asynchronously chahiye hoti hain, toh Stream ka use hota hai.

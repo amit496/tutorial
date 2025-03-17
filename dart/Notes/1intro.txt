@@ -1,0 +1,58 @@
+Dart ek programming langauge hai jo modern open-source or object-oriented programming language hai. Dart google ne october 2011 main develop kiya tha. Ye langauge mainly mobile apps and web development banane ke liye use hoti. commonly dart ka use flutter framework ke saath kiya jaata hai. 
+
+
+
+
+Dart ki Features
+
+Fast and Efficient:
+Dart ka JIT (Just-in-Time) aur AOT (Ahead-of-Time) compilation isse fast aur responsive banata hai.
+
+Cross-Platform Development:
+Ek hi codebase se Android, iOS, aur web applications banaye ja sakte hain.
+
+Object-Oriented:
+Dart object-oriented programming ko support karta hai jisme classes aur objects ka use hota hai.
+
+Sound Null Safety:
+Dart me null safety ka feature hai jo runtime errors ko kam karta hai aur app ke stability ko badhata hai.
+
+Rich Standard Library:
+Dart ke paas ek strong standard library hai jo strings, collections, math, aur asynchronous programming ke liye useful tools provide karti hai.
+
+Asynchronous Programming:
+Dart asynchronous operations (jaise file I/O aur network requests) ke liye async aur await keywords ka use karta hai.
+
+
+
+
+Dart Ka Use Kahan Hota Hai?
+Mobile App Development: Dart ka sabse zyada use Flutter framework mein hota hai, jo ki mobile apps banane ke liye kaafi popular hai.
+
+Web Development: Dart ko aap web apps banane ke liye bhi use kar sakte hain. Dart ke saath aap browser mein bhi apps run kar sakte hain.
+
+Server-Side Development: Dart ko backend development mein bhi use kiya ja sakta hai. Aap server-side applications bhi Dart ke through likh sakte hain.
+
+
+Why develop the dart.
+Iska main purpose web development ke liye ek modern, high-performance language provide karna tha, jo JavaScript ka ek alternative ho sakti thi. Dart ka development isliye bhi kiya gaya tha taake web applications ko zyada efficiently aur easily build kiya ja sake.
+
+Dart ka primary goal tha:
+
+Better Performance: JavaScript ke mukable zyada fast execution aur better performance provide karna.
+
+Ease of Development: Dart ko aise design kiya gaya tha ke developers ko familiar syntax aur better tooling mile, jaise hota hai in languages like Java or C#.
+
+Future-Proofing: Google ne Dart ko develop kiya taake long-term mein web development ke liye ek stable aur scalable language ho, jise browsers me support mil sake.
+
+Mobile Development: Dart ko Flutter framework ke saath integrate kiya gaya, jo mobile apps banane ke liye ek popular toolkit hai. Flutter ki madad se ek hi codebase se cross-platform apps (Android, iOS) banaye ja sakte hain.
+
+Aaj ke time mein Dart primarily Flutter ke liye use hota hai, lekin Dart ka web aur server-side development ke liye bhi use hota hai.
+
+
+
+
+
+
+
+

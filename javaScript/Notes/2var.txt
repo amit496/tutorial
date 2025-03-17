@@ -1,0 +1,36 @@
+variables :-  variable ek container hote hai jismain value store ki jaati hai. or un variable ko ek naam diya jaata hai. jasie assume kijiye ek container banaya gya hai jisko naam "A" diya gya hai or ek value assian ki gai jo hai "Hello".
+
+Example :  Var A = "Hello";
+
+Es example main container ka naam "A" hai or value "Hello".
+
+Variables ko define karte waqt var, let, ya const ka use kiya jaata hai. In keywords ka apna scope aur usage hai.
+
+VAR:
+1. "Var" JavaScript ke ECMAScript 1 (ES1) mein add kiya gaya tha.
+2. var se declare kiye gaye variable ko re-declare kiya ja sakta hai, jo ek potential issue ho sakta hai jab aap chahte ho ki variable ka value ek hi jagah par remain kare.
+3. var se declare kiye gaye variable ki value ko initialize karna zaroori nahi hota; agar value assign nahi ki gayi toh iska default value undefined hota hai.
+4. var se declare kiye gaye variable ki value ko change kiya ja sakta hai.
+
+LET:
+1. "Let" JavaScript ke ECMAScript 6 (ES6) mein add kiya gaya tha.
+2. let se declare kiye gaye variable ko re-declare nahi kiya ja sakta within the same scope.
+3. let se declare kiye gaye variable ki value ko initialize karna zaroori nahi hota; default value undefined hota hai.
+4. let se declare kiye gaye variable ki value ko change kiya ja sakta hai.
+
+CONST:
+1. "Const" JavaScript ke ECMAScript 6 (ES6) mein add kiya gaya tha.
+2. const se declare kiye gaye variable ko re-declare nahi kiya ja sakta within the same scope.
+3. const se declare kiye gaye variable ko initialization karna zaroori hota hai.
+4. const se declare kiye gaye variable ki value ko change nahi kiya ja sakta (immutable).
+
+
+
+
+Rules:
+1. Variable ka naam alphabetic character, underscore, ya dollar sign ke saath shuru hona chahiye.
+2. Variable names mein numbers ho sakte hain, lekin woh naam ke starting character ke baad hi aate hain (e.g., var _name, var name1, var $name).
+3. JavaScript mein variables ka naam case-sensitive hota hai, matlab name, Name, aur NAME alag variables hain.
+
+
+
