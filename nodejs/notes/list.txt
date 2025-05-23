@@ -1,0 +1,12 @@
+Q1: What is Nodejs?
+Q2: What is V8 engine?
+Q3: What is asynchronous?
+Q4: What is event-driven architecture?
+Q5: What is Non-blocking I/O?
+Q6: What is NPM?
+Q7: What is Real-time applications?
+Q7: What is RESTful APIs?
+Q7: What is GraphQL APIs?
+Q7: What is runtime environment?
+Q7: What is runtime environment?
+
