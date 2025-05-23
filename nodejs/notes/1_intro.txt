@@ -1,6 +1,6 @@
 Node.js ek open-source, cross-plateform javaScript runtime environment hai. Iska use javaScript ko server-side pe chalana hota hia, jabki pehle javaScript sirf browser (client-side) pe hi chalta tha.
 
-Node.js ka core "V8 javaScript engine" par based hota hai, jo "Google Chrome" me bhi use hota hai. Iska main feature ye hai ki ye "asynchronous", event-driven architecture ko support karta hai, jo applications ko fast aur scalable bana deta hai.
+Node.js "V8 javaScript engine" par based hota hai, jo "Google Chrome" me bhi use hota hai. Iska main feature ye hai ki ye "asynchronous", event-driven architecture ko support karta hai, jo applications ko fast aur scalable bana deta hai.
 
 
 Key features of Node.js:
